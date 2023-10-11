@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 # Ejercicio
 
-Considera los conjuntos de datos mammals del paquete MASS y Animals2 del paquete robustbase.
+Considera los conjuntos de datos mammals del paquete **MASS** y **Animals2** del paquete `robustbase`.
 
   + Mira la las características de ambos conjuntos usando la ayuda.
   + Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
@@ -23,7 +23,10 @@ Considera los conjuntos de datos mammals del paquete MASS y Animals2 del paquete
 library(MASS)
 library(robustbase)
 
-mammals
-Animals2
+data("mammals")
+data("Animals2")
+
+class(mammals)
+class(Animals2)
 ```
 
